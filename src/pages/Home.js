@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./Home";
+import Homepg from "./Homepg";
 
 function Home() {
     return (
       <div>
-        <Home/>
+        <Homepg/>
        
       </div>
     );
