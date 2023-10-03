@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import DriverLogin from "./DriverLogin";
 
 function Home() {
     return (
@@ -18,14 +20,14 @@ function Home() {
               <div class="flex flex-row justify-center">
                 <div Class=" cursor-pointer h-44 w-44 rounded-full bg-transparent hover:{ease-in } transition  shadow-2xl shadow-white backdrop-blur-2xl border-spacing-5  border justify-center ">
                   <h1 class="m-5 my-12 text-center text-2xl font-serif text-cyan-50 font-bold">
-                    Book Parking Slot 
+                    <Link to="/DriverLogin">Book Parking Slot</Link>
                   </h1>
                 </div>
               </div>
               <div class="flex flex-row justify-center">
                 <div Class=" cursor-pointer h-44 w-44 rounded-full bg-transparent hover:{ease-in } transition  shadow-2xl shadow-white backdrop-blur-2xl border-spacing-5  border justify-center ">
                   <h1 class="m-5 my-12 text-center text-2xl font-serif text-cyan-50 font-bold">
-                    Rent my Place
+                    <Link to="/OwnerLogin">Rent My Place</Link>
                   </h1>
                 </div>
               </div>          

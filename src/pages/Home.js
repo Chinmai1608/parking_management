@@ -6,9 +6,10 @@ import Driverhomepage from "./Driverhomepage";
 function Home() {
     return (
       <div>
-        {/* <Homepg/> */}
+        <Homepg/>
         {/* <DriverLogin/> */}
         <Driverhomepage/>
+        
 
       </div>
     );
