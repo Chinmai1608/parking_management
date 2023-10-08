@@ -9,6 +9,8 @@ import Driverhomepage from "./pages/Driverhomepage";
 import OwnerLogin from "./pages/OwnerLogin";
 import OwnerHomePage from "./pages/OwnerHomePage";
 import Homepg from './pages/Homepg';
+import DriverSignUp from "./pages/DriverSignUp";
+import OwnerSignUp from "./pages/OwnerSignUp";
 
 function App() {
   return (
@@ -17,10 +19,11 @@ function App() {
       <Route exact path='/' element={<Home/>}/>
       <Route exact path='/Homepg' element={<Homepg/>}/>
       <Route exact path='/DriverLogin' element={<DriverLogin/>}/>
+      <Route exact path='/DriverSignUp' element={<DriverSignUp/>}/>
       <Route exact path='/Driverhomepage' element={<Driverhomepage/>}/>
       <Route exact path='/OwnerLogin' element={<OwnerLogin/>}/>
       <Route exact path='/Ownerhomepage' element={<OwnerHomePage/>}/>
-
+      <Route exact path='/OwnerSignUp' element={<OwnerSignUp/>}/>
       </Routes>
     </Router>
   );

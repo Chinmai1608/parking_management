@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Driverhomepage from "./Driverhomepage";
 import LogoParkingImg from "../components/LogoParkingImg";
+import DriverSignUp from "./DriverSignUp";
 
 function DriverLogin() {
     return (
@@ -17,7 +18,7 @@ function DriverLogin() {
             <div class="cursor-pointer font-serif font-bold text-center text-lg text-neutral-900 border border-cyan-600 bg-sky-400 h-8 w-1/6 rounded-full m-3 mx-auto"
                   > <Link to="/Driverhomepage"><input type="submit" name="Login" value=""/>Login</Link> </div>
             <div class="text-center cursor-pointer mb-3 hover:underline">
-              <sub class="hover text-center ">Don't have an account? let's create new one</sub>
+              <Link to="/DriverSignUp" class="hover text-xs text-center ">Don't have an account? let's create new one</Link>
             </div>
 
           </div>
