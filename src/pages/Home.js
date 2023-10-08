@@ -2,14 +2,15 @@ import React from "react";
 import Homepg from "./Homepg";
 import DriverLogin from "./DriverLogin";
 import Driverhomepage from "./Driverhomepage";
+import DriverSignUp from "./DriverSignUp";
 
 function Home() {
     return (
       <div>
-        <Homepg/>
+        {/* <Homepg/> */}
         {/* <DriverLogin/> */}
-        <Driverhomepage/>
-        
+        {/* <Driverhomepage/> */}
+        <DriverSignUp/>
 
       </div>
     );
