@@ -11,6 +11,7 @@ import OwnerHomePage from "./pages/OwnerHomePage";
 import Homepg from './pages/Homepg';
 import DriverSignUp from "./pages/DriverSignUp";
 import OwnerSignUp from "./pages/OwnerSignUp";
+import SlotVeiw from "./pages/SlotVeiw";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route exact path='/OwnerLogin' element={<OwnerLogin/>}/>
       <Route exact path='/Ownerhomepage' element={<OwnerHomePage/>}/>
       <Route exact path='/OwnerSignUp' element={<OwnerSignUp/>}/>
+      <Route exact path='/SlotVeiw' element={<SlotVeiw/>}/>
       </Routes>
     </Router>
   );

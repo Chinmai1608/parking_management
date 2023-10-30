@@ -7,10 +7,10 @@ import DriverSignUp from "./DriverSignUp";
 function Home() {
     return (
       <div>
-        {/* <Homepg/> */}
-        {/* <DriverLogin/> */}
-        {/* <Driverhomepage/> */}
-        <DriverSignUp/>
+        <Homepg/>
+        {/* <DriverLogin/>
+        <Driverhomepage/>
+        <DriverSignUp/> */}
 
       </div>
     );
